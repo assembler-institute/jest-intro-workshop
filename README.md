@@ -7,6 +7,7 @@ In this workshop you will learn how to work with Jest for testing javascript app
 ## Table of Contents <!-- omit in toc -->
 
 - [Getting Started](#getting-started)
+- [Contents and Branches Naming Strategy](#contents-and-branches-naming-strategy)
 - [Workshop Material](#workshop-material)
 - [What is Jest?](#what-is-jest)
 - [Writing Your First Test](#writing-your-first-test)
@@ -32,6 +33,15 @@ And jest globally so that you can run it from the terminal:
 ```bash
 $ npm install --global jest
 ```
+
+## Contents and Branches Naming Strategy
+
+The repository is made up of several branches that include the contents and exercises of each section.
+
+The branches follow a naming strategy like the following:
+
+- `exercise-{NN}`: includes the main contents and the instructions of the exercises
+- `exercise-{NN}-solution`: includes the solution of the exercises
 
 ## Workshop Material
 
