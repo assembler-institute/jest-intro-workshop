@@ -40,8 +40,8 @@ The repository is made up of several branches that include the contents and exer
 
 The branches follow a naming strategy like the following:
 
-- `exercise-{NN}`: includes the main contents and the instructions of the exercises
-- `exercise-{NN}-solution`: includes the solution of the exercises
+- `{NN}-exercise`: includes the main contents and the instructions of the exercises
+- `{NN}-exercise-solution`: includes the solution of the exercises
 
 ## Workshop Material
 
