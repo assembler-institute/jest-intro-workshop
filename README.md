@@ -19,6 +19,7 @@ In this workshop you will learn how to work with Jest for testing javascript app
 - [Spies](#spies)
 - [Clearing and Restoring Mock Functions](#clearing-and-restoring-mock-functions)
 - [Testing DOM Manipulation](#testing-dom-manipulation)
+- [Code Coverage](#code-coverage)
 
 ## Getting Started
 
@@ -958,6 +959,32 @@ Open the `10-exercise.test.js` file inside the `src/__tests__/` folder and solve
 Example: `jest -t "10-exercises"`
 
 For this part you have 15 minutes to solve it. If you get stuck you can find the solution inside the `10-exercise-solution` branch. Once the time has passed the instructor will solve the exercise.
+
+## Code Coverage
+
+Testing for the code coverage of our tests allows us to see if all our code is covered by a test.
+
+For this, `jest` uses a tool named `istambul` that keeps track of all the lines of code that are executed by our tests and marks them as tested. Then, when all our code has been tested, it will mark a percentage of how much of it has been executed by the tests so that we can easily know if we are testing all the code of our application.
+
+### `jest --collectCoverage`
+
+By executing the `jest --collectCoverage` command we can instruct jest to perform an analysis of the code coverage of our tests, that is, to see how much of our code is covered by tests so that we can know how much is left to test.
+
+<div align='left'>
+  <img src='src/img/jest-coverage-cli-report.png' width='600' alt='jest coverage cli report'>
+</div>
+
+Now in your `src` folder you should have a folder named `coverage` that you can explore. Inside it you should also find a `lcov-report` folder that contains several html files with information about the code coverage of your app.
+
+<div align='left'>
+  <img src='src/img/jest-coverage-html-report.png' width='600' alt='jest coverage html report'>
+</div>
+
+If you open the link of one of the file names you should see a breakdown of the code that was executed by your tests and the lines that were not covered.
+
+<div align='left'>
+  <img src='src/img/jest-coverage-html-file-report.png' width='600' alt='jest coverage html file report'>
+</div>
 
 ## Author <!-- omit in toc -->
 
