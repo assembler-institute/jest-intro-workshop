@@ -1,6 +1,6 @@
-`#es6` `jest` `#assembler-school` `#master-in-software-engineering`
+`#es6` `jest` `#assembler-institute` `#master-in-software-engineering`
 
-# Assembler School: Jest Intro Workshop <!-- omit in toc -->
+# Assembler Institute: Jest Intro Workshop <!-- omit in toc -->
 
 In this workshop you will learn how to work with Jest for testing javascript applications.
 
