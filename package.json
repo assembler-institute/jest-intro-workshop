@@ -17,23 +17,23 @@
     "type": "git",
     "url": "https://github.com/assembler-school/jest-intro-workshop.git"
   },
-  "dependencies": {
-    "@babel/core": "^7.12.10",
-    "bootstrap": "^5.0.0-beta1",
-    "node-fetch": "^2.6.1"
-  },
-  "devDependencies": {
-    "@babel/preset-env": "^7.12.11",
-    "@types/jest": "^26.0.19",
-    "babel-eslint": "^10.1.0",
-    "babel-jest": "^26.6.3",
-    "eslint": "^7.15.0",
-    "jest": "^26.6.3",
-    "nodemon": "^2.0.6",
-    "parcel": "^2.0.0-beta.1",
-    "prettier": "2.2.1"
-  },
   "browserslist": [
     "defaults"
-  ]
+  ],
+  "dependencies": {
+    "@babel/core": "7.18.9",
+    "bootstrap": "5.2.0",
+    "node-fetch": "3.2.9"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "7.18.9",
+    "@babel/preset-env": "7.18.9",
+    "@types/jest": "28.1.6",
+    "babel-jest": "28.1.3",
+    "eslint": "8.20.0",
+    "jest": "28.1.3",
+    "nodemon": "2.0.19",
+    "parcel": "2.6.2",
+    "prettier": "2.7.1"
+  }
 }
